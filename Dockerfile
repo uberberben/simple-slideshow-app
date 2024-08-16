@@ -1,6 +1,8 @@
 # Use an official Node.js runtime as a parent image
 FROM node:20
 
+RUN mkdir -p /mnt/user/appdata/slideshow-app
+
 # Set the working directory
 WORKDIR /mnt/user/appdata/slideshow-app
 
